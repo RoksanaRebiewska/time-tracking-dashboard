@@ -1,0 +1,52 @@
+.profileContainer {
+  background-color: #1d204b;
+  height: 93.5%;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.profile {
+  background-color: #7598ea;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: #fff 2px solid;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 40px;
+}
+
+.report {
+  margin-left: 20px;
+}
+
+.name {
+  margin: 0 0 50px 20px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.period {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 20px;
+}
+
+.period button {
+  border: none;
+  background: none;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.period button:hover {
+  cursor: pointer;
+}

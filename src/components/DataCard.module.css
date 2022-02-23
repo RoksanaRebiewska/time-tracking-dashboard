@@ -1,0 +1,41 @@
+.dataCard {
+  background-color: #1d204b;
+  color: #fff;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  height: 220px;
+}
+
+.dataCard__category, .dataCard__time, .dataCard__last {
+  padding: 20px;
+}
+
+.dataCard__category {
+  font-size: 1.1rem;
+}
+
+.dataCard__time {
+  font-size: 3rem;
+}
+
+.dataCard__last {
+  font-size: .9rem;
+}
+
+.cardBackground {
+  padding: 30px 0 0;
+  margin: 20px 0;
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: -5px;
+  right: 20px;
+  z-index: 1;
+}
