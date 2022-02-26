@@ -178,6 +178,7 @@ const Dashboard = () => {
 
   const dataDisplay = data.map((item) => (
     <DataCard
+      key={item.title}
       category={item.title}
       time={item.timeframes[chosenFilter].current}
       last={item.timeframes[chosenFilter].previous}
