@@ -3,7 +3,7 @@ import styles from './Profile.module.css';
 
 import Tanya from '../assets/image-tanya.jpg';
 
-const Profile = (props) => {
+const Profile = ({ onDailyChange, onWeeklyChange, onMonthlyChange }) => {
   return (
     <Card className={styles.profileContainer}>
       <Card className={styles.profile}>
@@ -14,13 +14,13 @@ const Profile = (props) => {
         </div>
       </Card>
       <div className={styles.period}>
-        <button id="daily" onClick={props.onDailyChange}>
+        <button id="daily" onClick={onDailyChange}>
           Daily
         </button>
-        <button id="weekly" onClick={props.onWeeklyChange}>
+        <button id="weekly" onClick={onWeeklyChange}>
           Weekly
         </button>
-        <button id="monthly" onClick={props.onMonthlyChange}>
+        <button id="monthly" onClick={onMonthlyChange}>
           {' '}
           Monthly
         </button>
